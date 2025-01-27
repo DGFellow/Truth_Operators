@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>My Blog</h1>
+        <label class="switch">
+            <input type="checkbox" id="darkModeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div id="rainBackground">
+        <div class="cloud"></div> <!-- The cloud container for the rain drops -->
+    </div>
+    
+    <!-- Main Content Container -->
+    <div class="main-container">
+        <div class="content-wrapper">
+            <div id="threeContainer"></div> <!-- 3D Logo/Three.js -->
+            <div id="articleContainer"></div> <!-- Dynamic Articles -->
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 My Blog. All Rights Reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
